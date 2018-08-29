@@ -1,11 +1,11 @@
 package com.dhs.二叉树遍历;
 
 public class TreeNode {
-    public int val;
+    public String val;
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(int x) {
+    public TreeNode(String x) {
         val = x;
     }
 }
