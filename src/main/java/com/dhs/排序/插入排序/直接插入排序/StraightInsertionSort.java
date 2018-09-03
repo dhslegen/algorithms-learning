@@ -6,15 +6,15 @@ public class StraightInsertionSort {
         int j;
         int len = item.length;
         for (i = 1; i < len; i++) {
-            //if (item[i] < item[i - 1]) {
-                item[0] = item[i];
-                for (j = i; item[0] < item[j]; j--) {
+            if (item[i] < item[i - 1]) {
+                int temp = item[i];
+                for (j = i - 1; temp > item[j] & j >= 0; j--) {
                     item[j + 1] = item[j];
+                    item[j + 1] = temp;
                 }
-                item[j + 1] = item[0];
-            //}
+            }
         }
-        System.out.print("直接插入排序结果:");
+        System.out.println("直接插入排序结果:");
         for (int it : item) {
             System.out.print(it + ",");
         }
