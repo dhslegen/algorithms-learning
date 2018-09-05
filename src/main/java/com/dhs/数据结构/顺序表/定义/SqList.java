@@ -1,4 +1,4 @@
-package com.dhs.数据结构.顺序表.类型定义;
+package com.dhs.数据结构.顺序表.定义;
 
 public class SqList {
     public static final int MAX_SIZE = 100;

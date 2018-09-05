@@ -1,6 +1,6 @@
 package com.dhs.数据结构.顺序表.插入;
 
-import com.dhs.数据结构.顺序表.类型定义.SqList;
+import com.dhs.数据结构.顺序表.定义.SqList;
 
 public class Insert {
     public static SqList insert(SqList sqList, int i, int x) {

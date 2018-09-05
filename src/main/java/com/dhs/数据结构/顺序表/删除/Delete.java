@@ -1,6 +1,6 @@
 package com.dhs.数据结构.顺序表.删除;
 
-import com.dhs.数据结构.顺序表.类型定义.SqList;
+import com.dhs.数据结构.顺序表.定义.SqList;
 
 public class Delete {
     public static SqList delete(SqList sqList, int i) {

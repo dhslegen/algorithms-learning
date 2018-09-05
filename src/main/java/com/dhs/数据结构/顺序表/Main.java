@@ -3,7 +3,7 @@ package com.dhs.数据结构.顺序表;
 import com.dhs.数据结构.顺序表.删除.Delete;
 import com.dhs.数据结构.顺序表.插入.Insert;
 import com.dhs.数据结构.顺序表.查找.Query;
-import com.dhs.数据结构.顺序表.类型定义.SqList;
+import com.dhs.数据结构.顺序表.定义.SqList;
 
 public class Main {
     public static void main(String[] args) {
