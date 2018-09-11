@@ -5,12 +5,18 @@ import com.dhs.数据结构.单链表.定义.LNode;
 import java.util.Scanner;
 
 public class CreateList {
+    /**
+     * 后插方式的创建链表
+     *
+     * @return
+     */
     public static LNode createList() {
         LNode lNode = null;
         LNode r = null;
         Scanner reader = new Scanner(System.in);
         if (reader.hasNextInt()) {
             LNode tmp = new LNode();
+            tmp.data = reader.nextInt();
             r = lNode = tmp;
         }
         while (reader.hasNextInt()) {
@@ -23,6 +29,11 @@ public class CreateList {
         return lNode;
     }
 
+    /**
+     * 前插方式的创建链表
+     *
+     * @return
+     */
     public static LNode createList1() {
         LNode lNode = null;
         Scanner reader = new Scanner(System.in);
